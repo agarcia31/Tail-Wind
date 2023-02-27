@@ -8,34 +8,18 @@
     <title>TailWind CSS</title>
   </head>
   <body>
-    <div class="h-96 bg-yellow-200 m-64"></div>
-
-    <div class="h-96 bg-yellow-200 m-64 p-20">
-      Apples, Oranges, Lemons, Limes, Mangos, Banana, Pear, Pineapple
+    
+    <div class="grid lg:grid-cols-4 sm:grid-cols-1  h-64 lg:text-4xl sm:text-base">
+      <div class="col-span-1 bg-green-200">column 1</div>
+      <div class="col-span-1 bg-green-300">column 2</div>
+      <div class="col-span-1 bg-green-400">column 3</div>
+      <div class="col-span-1 bg-green-500">column 4</div>
     </div>
 
-    <div class="h-96 bg-yellow-200 mt-64 mb-64 mr-64 ml-64">
-      Apples, Oranges, Lemons, Limes, Mangos, Banana, Pear, Pineapple
-    </div>
 
-    <div
-      class="h-96 bg-yellow-200 mt-64 mb-64 mr-64 ml-64 pt-32 pb-32 pr-32 pl-32"
-    >
-      Apples, Oranges, Lemons, Limes, Mangos, Banana, Pear, Pineapple
-    </div>
+    <button class="py-5 px-10 m-64 bg-red-400 hover:scale-150 text-white transition ease-in-out delay-1000 duration-1000"> Click ME! </button>
 
-    <div
-      class="h-96 bg-yellow-200 mt-64 mb-64 mr-64 ml-64 pt-32 pb-32 pr-32 pl-32"
-    >
-      <p class="text-center text-red-500 text-5xl">
-        Apples, Oranges, Lemons, Limes, Mangos, Banana, Pear, Pineapple
-      </p>
-    </div>
-    <div
-      class="h-64 w-64 m-64 bg-gray-200 border-2 border-red-400 rounded-2xl"
-    ></div>
-    <div
-      class="h-64 w-64 m-64 bg-gray-200 border-2 border-red-400 rounded-t-full rounded-b-full"
-    ></div>
+
+    <button class="py-5 px-10 m-64 bg-red-400 hover:scale-150 text-white transition ease-in-out delay-150 duration-1000"> Click ME! </button>
   </body>
 </html>
